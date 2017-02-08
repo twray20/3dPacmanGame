@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1488527038786942}
+  m_IsPrefabParent: 1
+--- !u!1 &1488527038786942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4119250204335340}
+  - component: {fileID: 114678803455231070}
+  m_Layer: 0
+  m_Name: WorldGennerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4119250204335340
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1488527038786942}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -70.37883, y: -26.061436, z: 9.20616}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114678803455231070
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1488527038786942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9774463f45d239940af5729dc3f09b69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seed: 312
+  Width: 5
+  Height: 5
+  tileSize: 40
+  WorldTiles:
+  - {fileID: 1647886950849114, guid: 0d32744adb7fcdf41a5ab1fea2240cf2, type: 2}
+  - {fileID: 1110825243127574, guid: d1a37bb48c41b09478483b81a25cbcdc, type: 2}
+  - {fileID: 1697029531290522, guid: d7b7cab73a4002546bd17c10802bea79, type: 2}
+  - {fileID: 1192184382516008, guid: 9436654ab716aec4ca34c6b64020afb3, type: 2}
+  - {fileID: 1488052056179784, guid: 985dee6da073c954f984465c81b684bf, type: 2}
+  - {fileID: 1952027600584144, guid: 1269873e2bb86614a94caf4add4d380a, type: 2}
+  - {fileID: 1624629571163186, guid: e0fba43dc9fd9d24c871b60e9c97c2e3, type: 2}
+  - {fileID: 1267885345276250, guid: 2aac9eee30e8258418c94b930f172380, type: 2}
+  - {fileID: 1466906191837634, guid: 9d1bcc7aeffa3d245ac2917ca0e8251e, type: 2}
+  OuterTiles:
+  - {fileID: 1077240938404394, guid: 306676cc7b757af42b5cb3047a2f2e12, type: 2}
+  - {fileID: 1229670033482176, guid: ffee61f1e461f2c4f8cba99fcd9ba7dc, type: 2}
+  - {fileID: 1549697211772878, guid: 33fa2a36e7cd79943a4810e81370a575, type: 2}
+  - {fileID: 1270865145642866, guid: 76a813a580c60c342b87d1e32c5f93ad, type: 2}
+  - {fileID: 1628233125039752, guid: 2e2c72f283474b346bf709052b2001f5, type: 2}
+  CornerTiles:
+  - {fileID: 1225151466984980, guid: 85b69ae9064df6f4785f420e1764c59f, type: 2}
+  - {fileID: 1678427585244992, guid: c16dbe625cd11f24a8217ebf4fbb9b1e, type: 2}
+  - {fileID: 1706353692321730, guid: b0520b0f2ecead045aa177987bf8440e, type: 2}
+  Ceiling: {fileID: 1453527665945184, guid: 547b88374e9ba6d469c4ee83e3147502, type: 2}
